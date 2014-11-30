@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:key="browser_select"
+        android:summary="記事選択時にデフォルトブラウザを起動します"
+        android:title="デフォルトブラウザを使用" />
+
+    <CheckBoxPreference
+        android:key="history_preserve"
+        android:summary="シークレットモードで記事を読み込む"
+        android:title="履歴を保存しない" />
+
+    <CheckBoxPreference
+        android:key="javascript_service"
+        android:summary="JavaScriptを無効にします"
+        android:title="記事の高速表示" />
+
+</PreferenceScreen>
