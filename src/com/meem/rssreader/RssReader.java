@@ -44,9 +44,10 @@ public class RssReader extends ListActivity {
 	public static final String HISTORY_FILEPATH = Environment.getExternalStorageDirectory() + "/history.txt";
 	// private static final String RSS_FEED_URL =
 	// "http://tona0516.php.xdomain.jp/index.php";
-	// private static final String RSS_FEED_URL =
+	// private static final String RSS_FEED_URL =a
 	// "http://192.168.0.7:81/rssFeed.xml";
-	private static final String RSS_FEED_URL = "http://tonarssfeed.miraiserver.com/rssFeed.xml";
+	//private static final String RSS_FEED_URL = "http://tonarssfeed.miraiserver.com/rssFeed.xml";
+	private static final String RSS_FEED_URL = "http://192.168.0.4:81/index.php ";
 	private RssListAdapter mAdapter;
 	private ArrayList<Item> mItems;
 	private RssParserTask task;
